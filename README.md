@@ -1,7 +1,17 @@
-# ember-oauth-workshop
+# Enber OAuth Workshop
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This repo is the seed project for a workshop on using [ember-simple-auth](https://github.com/simplabs/ember-simple-auth)
+(ESA) and [torii](https://github.com/Vestorly/torii) to authenticate against GitHub
+using [OAuth2 authentication code grant flow](https://tools.ietf.org/html/rfc6749#section-4.1). The workshop is first
+being presented at Boston Ember.js on March 9, 2017. Based on the knowledge hopefully gained from the preceding talk,
+the goal will be to add full authentication against GitHub into this app.
+
+The app has a simple index page and a login page. You will make it so that if you start the app unauthenticated you go
+to the login page. If authenticated, you go to your chosen page and it displays some information from GitHub.
+
+I recommend you try it unassisted first, but if you want "guidance" or to follow a tutorial, see the
+[related ESA guide](https://github.com/simplabs/ember-simple-auth/blob/master/guides/auth-torii-with-github.md) and
+the [corresponding demo app](https://github.com/srvance/simple-auth-torii-github-demo).
 
 ## Prerequisites
 
@@ -15,7 +25,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone <repository-url>` this repository (fork it if you want to push)
 * `cd ember-oauth-workshop`
 * `npm install`
 * `bower install`
@@ -24,29 +34,3 @@ You will need the following things properly installed on your computer.
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
