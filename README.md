@@ -1,4 +1,4 @@
-# Enber OAuth Workshop
+# Ember OAuth Workshop
 
 This repo is the seed project for a workshop on using [ember-simple-auth](https://github.com/simplabs/ember-simple-auth)
 (ESA) and [torii](https://github.com/Vestorly/torii) to authenticate against GitHub
